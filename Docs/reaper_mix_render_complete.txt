@@ -1,0 +1,1 @@
+REAPER render automation reached completion. Independently verify WAV headers and file timestamps.

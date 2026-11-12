@@ -1,0 +1,66 @@
+{
+  "file_checks_passed": true,
+  "wwise_runtime_validated": false,
+  "scope": "Headers, unique PCM, references, settings, path timing, portable media links and photo hash; not application compatibility or listening quality.",
+  "assets": [
+    {
+      "file": "AMB_Kinmen_Roadside_Wind_Loop.wav",
+      "sample_rate": 48000,
+      "bits": 24,
+      "channels": 2,
+      "seconds": 60.0,
+      "pcm_sha256": "1fea90d303ea7b7f0333a66fe461b1aac96fec94a2f088f6716e97154c5e0910"
+    },
+    {
+      "file": "SFX_Bird_Sparse_01.wav",
+      "sample_rate": 48000,
+      "bits": 24,
+      "channels": 2,
+      "seconds": 2.8,
+      "pcm_sha256": "51ba8ade0f59ea9446341418dba81b726059d9ce24f5d94554a50be3f3646de0"
+    },
+    {
+      "file": "SFX_Bird_Sparse_02.wav",
+      "sample_rate": 48000,
+      "bits": 24,
+      "channels": 2,
+      "seconds": 3.0,
+      "pcm_sha256": "ac6e1e01e3c25126aca017c0f8e7c64a21c8da3b6c45384c5d1c69ee5a65be99"
+    },
+    {
+      "file": "SFX_Vehicle_Pass_01.wav",
+      "sample_rate": 48000,
+      "bits": 24,
+      "channels": 2,
+      "seconds": 7.4,
+      "pcm_sha256": "5b90640bdf6aacfba363de85e4fa5fe8c7d187cdb0ade6e94475b8edb3ce34c8"
+    },
+    {
+      "file": "SFX_Vehicle_Pass_02.wav",
+      "sample_rate": 48000,
+      "bits": 24,
+      "channels": 2,
+      "seconds": 11.8,
+      "pcm_sha256": "92bd32659e48957b2658a561977c803303455586b9cb029d30e59fd5bb7a7a07"
+    },
+    {
+      "file": "SFX_Vehicle_Pass_03.wav",
+      "sample_rate": 48000,
+      "bits": 24,
+      "channels": 2,
+      "seconds": 12.0,
+      "pcm_sha256": "9a8b2f2d0ed0be287bd94f05d94f1b95a5ce5797421fc56c2573ea88470ed568"
+    },
+    {
+      "file": "SFX_Vehicle_Pass_04.wav",
+      "sample_rate": 48000,
+      "bits": 24,
+      "channels": 2,
+      "seconds": 12.0,
+      "pcm_sha256": "4000ee7fc3d78c300d2d2f004c988ad9d86863e681b60fe1f1b8096ffaaa87f5"
+    }
+  ],
+  "work_units": 22,
+  "reaper_projects": 8,
+  "errors": []
+}

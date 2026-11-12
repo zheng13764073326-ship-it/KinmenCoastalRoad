@@ -1,0 +1,42 @@
+[
+  {
+    "name": "car_01",
+    "author": "961_Studios",
+    "id": 244407,
+    "page": "https://freesound.org/people/961_Studios/sounds/244407/",
+    "download": "https://cdn.freesound.org/previews/244/244407_4474028-hq.mp3",
+    "license": "CC0 1.0",
+    "title": "Freesound - Car passing by.wav by 961_Studios",
+    "bytes": 167080
+  },
+  {
+    "name": "car_02",
+    "author": "makkaydani",
+    "id": 580338,
+    "page": "https://freesound.org/people/makkaydani/sounds/580338/",
+    "download": "https://cdn.freesound.org/previews/580/580338_9129505-hq.mp3",
+    "license": "CC0 1.0",
+    "title": "Freesound - Car pass R-L.wav by makkaydani",
+    "bytes": 278016
+  },
+  {
+    "name": "scooter_01",
+    "author": "nickpursehouse",
+    "id": 509522,
+    "page": "https://freesound.org/people/nickpursehouse/sounds/509522/",
+    "download": "https://cdn.freesound.org/previews/509/509522_1665834-hq.mp3",
+    "license": "CC0 1.0",
+    "title": "Freesound - Scooter drive by .wav by nickpursehouse",
+    "bytes": 272112
+  },
+  {
+    "name": "scooter_02",
+    "author": "kyles",
+    "id": 450698,
+    "page": "https://freesound.org/people/kyles/sounds/450698/",
+    "download": "https://cdn.freesound.org/previews/450/450698_612689-hq.mp3",
+    "license": "CC0 1.0",
+    "title": "Freesound - scooter pass by medium speed echo off building.flac by kyles",
+    "bytes": 561888
+  }
+]

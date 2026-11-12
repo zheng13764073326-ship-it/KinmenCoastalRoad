@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WwiseDocument Type="WorkUnit" ID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AMB_Kinmen_Roadside_Wind_Loop" ID="{CCD56FA7-7BC1-56F5-B790-94D9912C08B2}" ShortID="325606670">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+						<Property Name="IsLoopingInfinite" Type="bool" Value="True" />
+						<Property Name="OverridePositioning" Type="bool" Value="True" />
+						<Property Name="3DSpatialization" Type="int16" Value="0" />
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0" />
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" WorkUnitID="{00B84DEF-4DB3-5038-BB1B-9CB86A350F0B}" />
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{ADA7C108-03A5-5B16-A3FB-423B39D533D0}" WorkUnitID="{E0B02531-D83E-5ABD-BD63-FE7A16223F37}" />
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_Kinmen_Roadside_Wind_Loop" ID="{829EBE09-90BD-573A-BC5A-E13717FC1363}">
+							<Language>SFX</Language>
+							<AudioFile>AMB_Kinmen_Roadside_Wind_Loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="913631988" />
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_Kinmen_Roadside_Wind_Loop" ID="{829EBE09-90BD-573A-BC5A-E13717FC1363}" Platform="Linked" />
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="RC_Vehicle_Pass" ID="{27D85D82-C025-506C-AB7D-34B9D282564D}" ShortID="753085392">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="1" />
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="True" />
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="1" />
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+						<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="1" />
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2" />
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="25">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{CF3E1FA9-35DD-59FC-A578-9A0D1492761D}">
+										<PropertyList>
+											<Property Name="Min" Type="Real64" Value="-7" />
+											<Property Name="Max" Type="Real64" Value="7" />
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Vehicles" ID="{E1553F6A-BDAD-5D9B-A3BF-8935A454B51D}" WorkUnitID="{E0B02531-D83E-5ABD-BD63-FE7A16223F37}" />
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" WorkUnitID="{00B84DEF-4DB3-5038-BB1B-9CB86A350F0B}" />
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Vehicle_Pass_01" ID="{248A981A-D525-59C0-9A66-22D78D43A815}" ShortID="948438050">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" WorkUnitID="{00B84DEF-4DB3-5038-BB1B-9CB86A350F0B}" />
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Vehicles" ID="{E1553F6A-BDAD-5D9B-A3BF-8935A454B51D}" WorkUnitID="{E0B02531-D83E-5ABD-BD63-FE7A16223F37}" />
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Vehicles_120m" ID="{E875C0C8-B3D4-550C-B6D3-50A62F66747F}" WorkUnitID="{1C21B9B8-1E5C-5350-8DC8-0B6A8363FCDD}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Vehicle_Pass_01" ID="{219319E5-774B-5100-94AC-8A806671F312}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Vehicle_Pass_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="657735261" />
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Vehicle_Pass_01" ID="{219319E5-774B-5100-94AC-8A806671F312}" Platform="Linked" />
+							</ActiveSourceList>
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True" />
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True" />
+								<Property Name="EnableAttenuation" Type="bool" Value="True" />
+								<Property Name="3DSpatialization" Type="int16" Value="1" />
+								<Property Name="3DPosition" Type="int16" Value="1" />
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="100" />
+							</PropertyList>
+							<PositioningInfo>
+								<Position Name="" ID="{5BD08002-2697-5BDE-AB7A-6FCA801B41BE}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True" />
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="1" />
+										<Property Name="PlayMechanismLoop" Type="bool" Value="False" />
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Bend_Pass_Depart" ID="{C2316CE6-D491-59A7-8AD9-3CC457D54E8C}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="7400" />
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-45</XPos>
+													<YPos>70</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>8</XPos>
+													<YPos>3</YPos>
+													<Flags>0</Flags>
+													<Time>1500</Time>
+												</Point>
+												<Point>
+													<XPos>24</XPos>
+													<YPos>-95</YPos>
+													<Flags>0</Flags>
+													<Time>7400</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</Sound>
+						<Sound Name="SFX_Vehicle_Pass_02" ID="{764B9FFB-36E5-5D6F-92EE-CF289C64787B}" ShortID="207929656">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" WorkUnitID="{00B84DEF-4DB3-5038-BB1B-9CB86A350F0B}" />
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Vehicles" ID="{E1553F6A-BDAD-5D9B-A3BF-8935A454B51D}" WorkUnitID="{E0B02531-D83E-5ABD-BD63-FE7A16223F37}" />
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Vehicles_120m" ID="{E875C0C8-B3D4-550C-B6D3-50A62F66747F}" WorkUnitID="{1C21B9B8-1E5C-5350-8DC8-0B6A8363FCDD}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Vehicle_Pass_02" ID="{D2F69734-32D1-5B77-B8DC-C68C4A4861A9}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Vehicle_Pass_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="543084517" />
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Vehicle_Pass_02" ID="{D2F69734-32D1-5B77-B8DC-C68C4A4861A9}" Platform="Linked" />
+							</ActiveSourceList>
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True" />
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True" />
+								<Property Name="EnableAttenuation" Type="bool" Value="True" />
+								<Property Name="3DSpatialization" Type="int16" Value="1" />
+								<Property Name="3DPosition" Type="int16" Value="1" />
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="100" />
+							</PropertyList>
+							<PositioningInfo>
+								<Position Name="" ID="{315E79E7-198A-596A-B7D3-DFC4C061DB84}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True" />
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="1" />
+										<Property Name="PlayMechanismLoop" Type="bool" Value="False" />
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Bend_Pass_Depart" ID="{47736C77-46DB-5CF8-AF6B-12E7CC6896D5}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="11800" />
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>24</XPos>
+													<YPos>-95</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>8</XPos>
+													<YPos>3</YPos>
+													<Flags>0</Flags>
+													<Time>3400</Time>
+												</Point>
+												<Point>
+													<XPos>-45</XPos>
+													<YPos>70</YPos>
+													<Flags>0</Flags>
+													<Time>11800</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</Sound>
+						<Sound Name="SFX_Vehicle_Pass_03" ID="{CE31685B-546B-58F6-B80B-0C61C5E7613A}" ShortID="773466394">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" WorkUnitID="{00B84DEF-4DB3-5038-BB1B-9CB86A350F0B}" />
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Vehicles" ID="{E1553F6A-BDAD-5D9B-A3BF-8935A454B51D}" WorkUnitID="{E0B02531-D83E-5ABD-BD63-FE7A16223F37}" />
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Vehicles_120m" ID="{E875C0C8-B3D4-550C-B6D3-50A62F66747F}" WorkUnitID="{1C21B9B8-1E5C-5350-8DC8-0B6A8363FCDD}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Vehicle_Pass_03" ID="{ADC57CEE-5801-51C6-8894-C6AFEFD2C024}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Vehicle_Pass_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="685451896" />
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Vehicle_Pass_03" ID="{ADC57CEE-5801-51C6-8894-C6AFEFD2C024}" Platform="Linked" />
+							</ActiveSourceList>
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True" />
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True" />
+								<Property Name="EnableAttenuation" Type="bool" Value="True" />
+								<Property Name="3DSpatialization" Type="int16" Value="1" />
+								<Property Name="3DPosition" Type="int16" Value="1" />
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="100" />
+							</PropertyList>
+							<PositioningInfo>
+								<Position Name="" ID="{3C96CEEB-1FA0-54C1-95F4-4F4E915A7C29}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True" />
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="1" />
+										<Property Name="PlayMechanismLoop" Type="bool" Value="False" />
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Bend_Pass_Depart" ID="{3D5E9D61-929B-5F28-97D7-9FFFB356FED5}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="12000" />
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-45</XPos>
+													<YPos>70</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>8</XPos>
+													<YPos>3</YPos>
+													<Flags>0</Flags>
+													<Time>3600</Time>
+												</Point>
+												<Point>
+													<XPos>24</XPos>
+													<YPos>-95</YPos>
+													<Flags>0</Flags>
+													<Time>12000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</Sound>
+						<Sound Name="SFX_Vehicle_Pass_04" ID="{075DB83D-C410-5D17-97FB-079C3B032306}" ShortID="27936297">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" WorkUnitID="{00B84DEF-4DB3-5038-BB1B-9CB86A350F0B}" />
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Vehicles" ID="{E1553F6A-BDAD-5D9B-A3BF-8935A454B51D}" WorkUnitID="{E0B02531-D83E-5ABD-BD63-FE7A16223F37}" />
+								</Reference>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Vehicles_120m" ID="{E875C0C8-B3D4-550C-B6D3-50A62F66747F}" WorkUnitID="{1C21B9B8-1E5C-5350-8DC8-0B6A8363FCDD}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Vehicle_Pass_04" ID="{515DEEFE-55E1-5E72-9DC9-41BBA336ECEE}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Vehicle_Pass_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="889015287" />
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Vehicle_Pass_04" ID="{515DEEFE-55E1-5E72-9DC9-41BBA336ECEE}" Platform="Linked" />
+							</ActiveSourceList>
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True" />
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True" />
+								<Property Name="EnableAttenuation" Type="bool" Value="True" />
+								<Property Name="3DSpatialization" Type="int16" Value="1" />
+								<Property Name="3DPosition" Type="int16" Value="1" />
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="100" />
+							</PropertyList>
+							<PositioningInfo>
+								<Position Name="" ID="{312DA41A-A627-56D4-858D-71BB40CCFEFA}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True" />
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="1" />
+										<Property Name="PlayMechanismLoop" Type="bool" Value="False" />
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Bend_Pass_Depart" ID="{5D217736-531A-58CC-85A9-F9988C6FEC8A}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="12000" />
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>24</XPos>
+													<YPos>-95</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>8</XPos>
+													<YPos>3</YPos>
+													<Flags>0</Flags>
+													<Time>5250</Time>
+												</Point>
+												<Point>
+													<XPos>-45</XPos>
+													<YPos>70</YPos>
+													<Flags>0</Flags>
+													<Time>12000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="RC_Birds_Sparse" ID="{A4828531-D04A-51D5-A140-A4C8611D522E}" ShortID="555456799">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="1" />
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="True" />
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="1" />
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+						<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="1" />
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2" />
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="17">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{60162DF0-49E4-5023-8A77-38E32BBF1FE5}">
+										<PropertyList>
+											<Property Name="Min" Type="Real64" Value="-5" />
+											<Property Name="Max" Type="Real64" Value="5" />
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="OverridePositioning" Type="bool" Value="True" />
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="True" />
+						<Property Name="EnableAttenuation" Type="bool" Value="True" />
+						<Property Name="3DSpatialization" Type="int16" Value="1" />
+						<Property Name="3DPosition" Type="int16" Value="1" />
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="100" />
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Birds" ID="{EBD57BE6-AC88-570B-AA6E-D2816FF42162}" WorkUnitID="{E0B02531-D83E-5ABD-BD63-FE7A16223F37}" />
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" WorkUnitID="{00B84DEF-4DB3-5038-BB1B-9CB86A350F0B}" />
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_Birds_40m" ID="{8BEFDBAB-2D58-5853-834A-36342FF5688E}" WorkUnitID="{1C21B9B8-1E5C-5350-8DC8-0B6A8363FCDD}" />
+						</Reference>
+					</ReferenceList>
+					<PositioningInfo>
+						<Position Name="" ID="{CCEFDDF6-E253-529F-9A8F-8FDC042B9645}">
+							<PropertyList>
+								<Property Name="NewPathForEachSound" Type="bool" Value="True" />
+								<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1" />
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="1" />
+								<Property Name="PlayMechanismLoop" Type="bool" Value="False" />
+							</PropertyList>
+							<ChildrenList>
+								<Path2D Name="Near_Left" ID="{746B0B79-7098-5280-8B05-7B4BFD1A56B6}">
+									<PropertyList>
+										<Property Name="Duration" Type="Uint32" Value="3000" />
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>-4</XPos>
+											<YPos>5</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-4</XPos>
+											<YPos>5</YPos>
+											<Flags>0</Flags>
+											<Time>3000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Near_Right" ID="{A074DC34-0034-521B-A4AC-D24510C1D83C}">
+									<PropertyList>
+										<Property Name="Duration" Type="Uint32" Value="3000" />
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>7</XPos>
+											<YPos>6</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>7</XPos>
+											<YPos>6</YPos>
+											<Flags>0</Flags>
+											<Time>3000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Far_Left" ID="{0558124C-C0A8-5F76-9CAE-1530F628FF05}">
+									<PropertyList>
+										<Property Name="Duration" Type="Uint32" Value="3000" />
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>-13</XPos>
+											<YPos>17</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-13</XPos>
+											<YPos>17</YPos>
+											<Flags>0</Flags>
+											<Time>3000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Far_Right" ID="{06459E7D-A27D-5230-9367-3D6532C13662}">
+									<PropertyList>
+										<Property Name="Duration" Type="Uint32" Value="3000" />
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>18</XPos>
+											<YPos>22</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>18</XPos>
+											<YPos>22</YPos>
+											<Flags>0</Flags>
+											<Time>3000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ChildrenList>
+						<Sound Name="SFX_Bird_Sparse_01" ID="{01589349-7C58-5F89-B41A-BDB60B2AA3FB}" ShortID="362900359">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" WorkUnitID="{00B84DEF-4DB3-5038-BB1B-9CB86A350F0B}" />
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Birds" ID="{EBD57BE6-AC88-570B-AA6E-D2816FF42162}" WorkUnitID="{E0B02531-D83E-5ABD-BD63-FE7A16223F37}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Bird_Sparse_01" ID="{9A6C102F-A370-5DBF-B441-553D92D534EE}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Bird_Sparse_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="8657075" />
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Bird_Sparse_01" ID="{9A6C102F-A370-5DBF-B441-553D92D534EE}" Platform="Linked" />
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Bird_Sparse_02" ID="{BD475F1C-1544-5ACF-B8A9-06AA4E5BC16F}" ShortID="499938332">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" WorkUnitID="{00B84DEF-4DB3-5038-BB1B-9CB86A350F0B}" />
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Birds" ID="{EBD57BE6-AC88-570B-AA6E-D2816FF42162}" WorkUnitID="{E0B02531-D83E-5ABD-BD63-FE7A16223F37}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Bird_Sparse_02" ID="{D55B1A26-0AC8-5D66-A9A0-85720CF85016}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Bird_Sparse_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="974107917" />
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Bird_Sparse_02" ID="{D55B1A26-0AC8-5D66-A9A0-85720CF85016}" Platform="Linked" />
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

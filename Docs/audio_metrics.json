@@ -1,0 +1,68 @@
+[
+  {
+    "file": "Assets/Audio/AMB_Kinmen_Roadside_Wind_Loop.wav",
+    "seconds": 60.0,
+    "peak_dbfs": -13.0,
+    "rms_dbfs": -34.542,
+    "clipped_samples": 0,
+    "stereo_correlation": 0.343,
+    "loop_boundary_step": 0.007029533386230469,
+    "internal_step_p99": 0.017972592115402253
+  },
+  {
+    "file": "Assets/Audio/SFX_Bird_Sparse_01.wav",
+    "seconds": 2.8,
+    "peak_dbfs": -18.0,
+    "rms_dbfs": -37.232,
+    "clipped_samples": 0,
+    "stereo_correlation": 0.4939
+  },
+  {
+    "file": "Assets/Audio/SFX_Bird_Sparse_02.wav",
+    "seconds": 3.0,
+    "peak_dbfs": -18.0,
+    "rms_dbfs": -38.845,
+    "clipped_samples": 0,
+    "stereo_correlation": 0.7981
+  },
+  {
+    "file": "Assets/Audio/SFX_Vehicle_Pass_01.wav",
+    "seconds": 7.4,
+    "peak_dbfs": -8.0,
+    "rms_dbfs": -28.906,
+    "clipped_samples": 0,
+    "stereo_correlation": 1.0
+  },
+  {
+    "file": "Assets/Audio/SFX_Vehicle_Pass_02.wav",
+    "seconds": 11.8,
+    "peak_dbfs": -9.0,
+    "rms_dbfs": -33.241,
+    "clipped_samples": 0,
+    "stereo_correlation": 1.0
+  },
+  {
+    "file": "Assets/Audio/SFX_Vehicle_Pass_03.wav",
+    "seconds": 12.0,
+    "peak_dbfs": -10.0,
+    "rms_dbfs": -30.965,
+    "clipped_samples": 0,
+    "stereo_correlation": 1.0
+  },
+  {
+    "file": "Assets/Audio/SFX_Vehicle_Pass_04.wav",
+    "seconds": 12.0,
+    "peak_dbfs": -11.0,
+    "rms_dbfs": -29.34,
+    "clipped_samples": 0,
+    "stereo_correlation": 1.0
+  },
+  {
+    "file": "Preview/KinmenCoastalRoad_120s.wav",
+    "seconds": 120.0,
+    "peak_dbfs": -8.177,
+    "rms_dbfs": -32.986,
+    "clipped_samples": 0,
+    "stereo_correlation": 0.4504
+  }
+]

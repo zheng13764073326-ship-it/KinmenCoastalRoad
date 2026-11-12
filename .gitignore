@@ -1,0 +1,26 @@
+# Wwise caches and machine-local data
+**/.cache/
+**/GeneratedSoundBanks/
+**/.backup/
+*.akd
+*.wsettings
+*.wproj.user
+*.wproj.user.*
+*.prof
+*.log
+
+# REAPER temporary files; keep .rpp projects and all source audio
+*.reapeaks
+*.rpp-bak
+*.RPP-bak
+*.rpp-UNDO
+*.RPP-UNDO
+*.rpp~
+
+# Operating-system and tool caches
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+.venv/

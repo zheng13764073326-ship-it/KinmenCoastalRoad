@@ -1,0 +1,58 @@
+{
+  "desktop": {
+    "title": "弯道望海 · 金门",
+    "overflow": false,
+    "imageWidth": 1440
+  },
+  "audio": [
+    {
+      "src": "KinmenCoastalRoad_120s.wav",
+      "duration": 120,
+      "error": null
+    },
+    {
+      "src": "../Assets/Audio/AMB_Kinmen_Roadside_Wind_Loop.wav",
+      "duration": 60,
+      "error": null
+    },
+    {
+      "src": "../Assets/Audio/SFX_Vehicle_Pass_01.wav",
+      "duration": 7.4,
+      "error": null
+    },
+    {
+      "src": "../Assets/Audio/SFX_Vehicle_Pass_02.wav",
+      "duration": 11.8,
+      "error": null
+    },
+    {
+      "src": "../Assets/Audio/SFX_Vehicle_Pass_03.wav",
+      "duration": 12,
+      "error": null
+    },
+    {
+      "src": "../Assets/Audio/SFX_Vehicle_Pass_04.wav",
+      "duration": 12,
+      "error": null
+    },
+    {
+      "src": "../Assets/Audio/SFX_Bird_Sparse_01.wav",
+      "duration": 2.8,
+      "error": null
+    },
+    {
+      "src": "../Assets/Audio/SFX_Bird_Sparse_02.wav",
+      "duration": 3,
+      "error": null
+    }
+  ],
+  "playback": {
+    "playing": true,
+    "currentTime": 2.813164,
+    "readyState": 4,
+    "error": null
+  },
+  "mobile": {
+    "overflow": false
+  }
+}

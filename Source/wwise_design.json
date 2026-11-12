@@ -1,0 +1,154 @@
+{
+  "targetVersion": "2025.1.11.9262",
+  "schema": 133,
+  "authoringMethod": "Programmatically authored XML; Wwise runtime validation pending",
+  "baseLoopSeconds": 60,
+  "vehicleAssets": 4,
+  "birdAssets": 2,
+  "vehicleGapSeconds": [
+    18,
+    32
+  ],
+  "birdGapSeconds": [
+    12,
+    22
+  ],
+  "avoidRepeat": 1,
+  "motion": [
+    {
+      "asset": "SFX_Vehicle_Pass_01",
+      "points": [
+        [
+          -45,
+          70,
+          0
+        ],
+        [
+          8,
+          3,
+          1500
+        ],
+        [
+          24,
+          -95,
+          7400
+        ]
+      ]
+    },
+    {
+      "asset": "SFX_Vehicle_Pass_02",
+      "points": [
+        [
+          24,
+          -95,
+          0
+        ],
+        [
+          8,
+          3,
+          3400
+        ],
+        [
+          -45,
+          70,
+          11800
+        ]
+      ]
+    },
+    {
+      "asset": "SFX_Vehicle_Pass_03",
+      "points": [
+        [
+          -45,
+          70,
+          0
+        ],
+        [
+          8,
+          3,
+          3600
+        ],
+        [
+          24,
+          -95,
+          12000
+        ]
+      ]
+    },
+    {
+      "asset": "SFX_Vehicle_Pass_04",
+      "points": [
+        [
+          24,
+          -95,
+          0
+        ],
+        [
+          8,
+          3,
+          5250
+        ],
+        [
+          -45,
+          70,
+          12000
+        ]
+      ]
+    }
+  ],
+  "vehicleAttenuation": [
+    [
+      0,
+      0
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      40,
+      -4
+    ],
+    [
+      80,
+      -10
+    ],
+    [
+      120,
+      -32
+    ]
+  ],
+  "birdAttenuation": [
+    [
+      0,
+      0
+    ],
+    [
+      5,
+      -2
+    ],
+    [
+      10,
+      -5
+    ],
+    [
+      20,
+      -11
+    ],
+    [
+      30,
+      -19
+    ],
+    [
+      40,
+      -40
+    ]
+  ],
+  "events": [
+    "Play_KinmenCoastalRoad",
+    "Stop_KinmenCoastalRoad",
+    "Play_Wind",
+    "Play_Vehicles",
+    "Play_Birds"
+  ]
+}

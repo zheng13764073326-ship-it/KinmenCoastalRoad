@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WwiseDocument Type="Project" SchemaVersion="133" WwiseVersion="v2025.1.11" WwiseBuild="9262">
+	<ProjectInfo>
+		<Project Name="KinmenCoastalRoad" ID="{BD00085C-DB36-5BE0-A533-C1832E97BD02}">
+			<Platforms>
+				<Platform Name="Windows" ReferencePlatform="Windows" ID="{A1F9A372-24E8-5EEE-960D-360E4617C7BF}" />
+			</Platforms>
+			<LanguageList>
+				<Language Name="English(US)" ID="{B6F9D5A6-37F6-5E13-A877-2337FBA087AC}" />
+				<Language Name="External" ID="{1F1A0C2D-55EE-57C2-8A11-0E1E96FDFE7F}" />
+				<Language Name="Mixed" ID="{183E1837-32F2-50D8-9D72-79A762EB6925}" />
+				<Language Name="SFX" ID="{709C0AD5-4D05-50E8-A68C-7E5965F9DD16}" />
+			</LanguageList>
+			<PropertyList>
+				<Property Name="DefaultLanguage" Type="string" Value="English(US)" />
+				<Property Name="GenerateSoundBankJSON" Type="bool" Value="True" />
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" />
+				<Property Name="SoundBankPaths" Type="string">
+					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache">.cache</MiscSettingEntry>
+				<MiscSettingEntry Name="Originals">Originals</MiscSettingEntry>
+			</MiscSettings>
+			<DefaultConversion Name="Default Conversion Settings" ID="{1DC43BD6-0E22-54AA-8847-3E1896B65431}" />
+			<PhysicalFolderList>
+				<PhysicalFolder Path="Attenuations">
+					<WorkUnit Name="Attenuations" ID="{07F49C0A-EB39-5AED-8474-40651BD96C8C}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Busses">
+					<WorkUnit Name="Busses" ID="{889DF160-267A-52CE-850C-091E2E90DCC7}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Containers">
+					<WorkUnit Name="Containers" ID="{7940DA45-9BFE-5F56-A9C7-6EDF08D3A2F6}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Control Surface Sessions">
+					<WorkUnit Name="Control Surface Sessions" ID="{A998AC5B-132E-56D2-AE9E-D8645706B1AD}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Conversion Settings">
+					<WorkUnit Name="Conversion Settings" ID="{74FA5828-9669-5BD4-B54A-A8103B585AF2}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Devices">
+					<WorkUnit Name="Devices" ID="{3927385C-E543-5B41-B872-29169D05BF5F}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Dynamic Dialogue">
+					<WorkUnit Name="Dynamic Dialogue" ID="{5B9BB925-6B44-55DE-90B7-4572B9B2FDF3}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Effects">
+					<WorkUnit Name="Effects" ID="{BECA38BA-C70C-55CB-9186-018519674099}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Events">
+					<WorkUnit Name="Events" ID="{388451E8-31F7-58E0-90EA-14A68059DDB8}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Game Parameters">
+					<WorkUnit Name="Game Parameters" ID="{91FD5D36-FC2F-5E06-9517-9CD371E97285}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Metadata">
+					<WorkUnit Name="Metadata" ID="{E0728394-1D0C-53C3-8CB8-A2C636297F6C}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Mixing Sessions">
+					<WorkUnit Name="Mixing Sessions" ID="{3291E3F3-87B1-5050-BD2B-F61AEAF9F6C6}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Modulators">
+					<WorkUnit Name="Modulators" ID="{36803947-519F-50A7-8C67-2CBAF3DE7B47}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Presets">
+					<WorkUnit Name="Presets" ID="{548029CB-65C0-56E4-928B-0AAC93EC3A8B}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Queries">
+					<WorkUnit Name="Queries" ID="{F100FAF7-78D0-570F-9D5F-CD9653C8F1DD}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Sidechain Mixes">
+					<WorkUnit Name="Sidechain Mixes" ID="{26581C6E-7D38-5D7E-9FD6-07E3C848732E}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks">
+					<WorkUnit Name="SoundBanks" ID="{02D8F281-36D8-53EE-9AD1-8076AC551BEB}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Soundcaster Sessions">
+					<WorkUnit Name="Soundcaster Sessions" ID="{33945AD5-D07B-51D7-88D9-39DEC13978EC}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="States">
+					<WorkUnit Name="States" ID="{717315F6-6288-5911-8783-B79DDAA2E255}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Switches">
+					<WorkUnit Name="Switches" ID="{590E2974-237E-5172-AB1B-D2F86C280FCF}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Triggers">
+					<WorkUnit Name="Triggers" ID="{02DA4226-C8FA-5AB2-AF95-1FACBFD075F9}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="Virtual Acoustics">
+					<WorkUnit Name="Virtual Acoustics" ID="{F73A959B-10EB-5CC6-8225-06D1C537D5CE}" PersistMode="Standalone" />
+				</PhysicalFolder>
+			</PhysicalFolderList>
+		</Project>
+	</ProjectInfo>
+</WwiseDocument>

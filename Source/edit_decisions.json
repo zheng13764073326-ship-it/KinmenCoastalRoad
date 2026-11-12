@@ -1,0 +1,125 @@
+[
+  {
+    "name": "AMB_Kinmen_Roadside_Wind_Loop",
+    "duration": 60,
+    "items": [
+      {
+        "pos": 0,
+        "length": 30,
+        "offset": 2,
+        "source": "Wind_Clean.wav",
+        "fi": 0,
+        "fo": 2,
+        "gain": 0.7079457843841379
+      },
+      {
+        "pos": 28,
+        "length": 32,
+        "offset": 5,
+        "source": "Wind_Clean.wav",
+        "fi": 2,
+        "fo": 2,
+        "gain": 0.7079457843841379
+      },
+      {
+        "pos": 58,
+        "length": 2,
+        "offset": 0,
+        "source": "Wind_Clean.wav",
+        "fi": 2,
+        "fo": 0,
+        "gain": 0.7079457843841379
+      }
+    ]
+  },
+  {
+    "name": "SFX_Vehicle_Pass_01",
+    "duration": 7.4,
+    "items": [
+      {
+        "pos": 0,
+        "length": 7.4,
+        "offset": 0,
+        "source": "car_01_Clean.wav",
+        "fi": 0.2,
+        "fo": 0.8,
+        "gain": 0.543676321566426
+      }
+    ]
+  },
+  {
+    "name": "SFX_Vehicle_Pass_02",
+    "duration": 11.8,
+    "items": [
+      {
+        "pos": 0,
+        "length": 11.8,
+        "offset": 0.1,
+        "source": "car_02_Clean.wav",
+        "fi": 0.35,
+        "fo": 1,
+        "gain": 2.650633821505699
+      }
+    ]
+  },
+  {
+    "name": "SFX_Vehicle_Pass_03",
+    "duration": 12.0,
+    "items": [
+      {
+        "pos": 0,
+        "length": 12.0,
+        "offset": 0.1,
+        "source": "scooter_01_Clean.wav",
+        "fi": 0.35,
+        "fo": 1.2,
+        "gain": 1.0436866894241363
+      }
+    ]
+  },
+  {
+    "name": "SFX_Vehicle_Pass_04",
+    "duration": 12,
+    "items": [
+      {
+        "pos": 0,
+        "length": 12,
+        "offset": 4,
+        "source": "scooter_02_Clean.wav",
+        "fi": 0.8,
+        "fo": 2.3,
+        "gain": 1.1574145334647399
+      }
+    ]
+  },
+  {
+    "name": "SFX_Bird_Sparse_01",
+    "duration": 2.8,
+    "items": [
+      {
+        "pos": 0,
+        "length": 2.8,
+        "offset": 4.7,
+        "source": "Birds_Swiftoid_Clean.wav",
+        "fi": 0.06,
+        "fo": 0.22,
+        "gain": 2.1610393201277405
+      }
+    ]
+  },
+  {
+    "name": "SFX_Bird_Sparse_02",
+    "duration": 3.0,
+    "items": [
+      {
+        "pos": 0,
+        "length": 2.9999999999999996,
+        "offset": 1.1,
+        "source": "Bird_Single_Clean.wav",
+        "fi": 0.06,
+        "fo": 0.22,
+        "gain": 5.060730781768967
+      }
+    ]
+  }
+]

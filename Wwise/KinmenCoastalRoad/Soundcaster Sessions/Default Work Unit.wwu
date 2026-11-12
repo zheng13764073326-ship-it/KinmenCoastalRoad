@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WwiseDocument Type="WorkUnit" ID="{F784335F-CA76-522A-8818-6C320459E5AC}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{F784335F-CA76-522A-8818-6C320459E5AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SC_KinmenCoastalRoad" ID="{43EE6E5D-0C88-5E87-9AE8-853CF20581CA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_KinmenCoastalRoad" ID="{C9E3F6C8-8388-54B6-BE76-F9F6E5FE39AD}" WorkUnitID="{711E0652-AF6D-5D0E-ABB4-D82C55927020}" />
+							<Position X="0" Y="0" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_KinmenCoastalRoad" ID="{EE258D5E-B5CD-5EE5-9686-EE67FB4CA665}" WorkUnitID="{711E0652-AF6D-5D0E-ABB4-D82C55927020}" />
+							<Position X="1" Y="0" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Wind" ID="{5095134D-CB09-58EB-A41A-99DE839A4FEB}" WorkUnitID="{711E0652-AF6D-5D0E-ABB4-D82C55927020}" />
+							<Position X="0" Y="1" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Vehicles" ID="{32AAE133-698B-539D-A715-C215CEDA4F15}" WorkUnitID="{711E0652-AF6D-5D0E-ABB4-D82C55927020}" />
+							<Position X="1" Y="1" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Birds" ID="{E0B23375-6D3B-5EBD-A2EE-FAE4A636325E}" WorkUnitID="{711E0652-AF6D-5D0E-ABB4-D82C55927020}" />
+							<Position X="0" Y="2" />
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true" />
+					<CurrentStateList ShowAll="true" />
+					<CurrentSwitchList ShowAll="true" />
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

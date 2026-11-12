@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WwiseDocument Type="WorkUnit" ID="{711E0652-AF6D-5D0E-ABB4-D82C55927020}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{711E0652-AF6D-5D0E-ABB4-D82C55927020}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_KinmenCoastalRoad" ID="{C9E3F6C8-8388-54B6-BE76-F9F6E5FE39AD}">
+					<ChildrenList>
+						<Action Name="" ID="{15F628DD-511A-51E2-9443-879BB77A93AD}" ShortID="794314346">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1" />
+								<Property Name="FadeTime" Type="Real64" Value="1" />
+								<Property Name="Delay" Type="Real64" Value="0" />
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Kinmen_Roadside_Wind_Loop" ID="{CCD56FA7-7BC1-56F5-B790-94D9912C08B2}" WorkUnitID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" />
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{097E5736-0647-57FE-AA72-E76BB5A87E63}" ShortID="831319476">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1" />
+								<Property Name="FadeTime" Type="Real64" Value="0" />
+								<Property Name="Delay" Type="Real64" Value="15" />
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Vehicle_Pass" ID="{27D85D82-C025-506C-AB7D-34B9D282564D}" WorkUnitID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" />
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DCEEC1F3-EA68-5158-838A-2D2AD4E48A7A}" ShortID="674157182">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1" />
+								<Property Name="FadeTime" Type="Real64" Value="0" />
+								<Property Name="Delay" Type="Real64" Value="8" />
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Birds_Sparse" ID="{A4828531-D04A-51D5-A140-A4C8611D522E}" WorkUnitID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" />
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_KinmenCoastalRoad" ID="{EE258D5E-B5CD-5EE5-9686-EE67FB4CA665}">
+					<ChildrenList>
+						<Action Name="" ID="{E6DDCC5F-25F4-5AB8-A007-0B656D502A86}" ShortID="909509287">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2" />
+								<Property Name="FadeTime" Type="Real64" Value="1" />
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Kinmen_Roadside_Wind_Loop" ID="{CCD56FA7-7BC1-56F5-B790-94D9912C08B2}" WorkUnitID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" />
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{25ED550E-C318-5B5F-A37A-6CDBDD61F173}" ShortID="444679016">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2" />
+								<Property Name="FadeTime" Type="Real64" Value="1" />
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Vehicle_Pass" ID="{27D85D82-C025-506C-AB7D-34B9D282564D}" WorkUnitID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" />
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5798668B-6E91-531E-8198-2E79750A685C}" ShortID="789857930">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2" />
+								<Property Name="FadeTime" Type="Real64" Value="1" />
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Birds_Sparse" ID="{A4828531-D04A-51D5-A140-A4C8611D522E}" WorkUnitID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" />
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wind" ID="{5095134D-CB09-58EB-A41A-99DE839A4FEB}">
+					<ChildrenList>
+						<Action Name="" ID="{074028B0-40A9-5408-A5D0-0CCB9ECE6A55}" ShortID="842004143">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1" />
+								<Property Name="FadeTime" Type="Real64" Value="1" />
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Kinmen_Roadside_Wind_Loop" ID="{CCD56FA7-7BC1-56F5-B790-94D9912C08B2}" WorkUnitID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" />
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vehicles" ID="{32AAE133-698B-539D-A715-C215CEDA4F15}">
+					<ChildrenList>
+						<Action Name="" ID="{D3EDBB96-7C54-5998-8744-EF224D830385}" ShortID="638389110">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1" />
+								<Property Name="FadeTime" Type="Real64" Value="0" />
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Vehicle_Pass" ID="{27D85D82-C025-506C-AB7D-34B9D282564D}" WorkUnitID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" />
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Birds" ID="{E0B23375-6D3B-5EBD-A2EE-FAE4A636325E}">
+					<ChildrenList>
+						<Action Name="" ID="{AD3F47AA-A0F0-575E-B5A0-CAFFDAFC6CE7}" ShortID="477184776">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1" />
+								<Property Name="FadeTime" Type="Real64" Value="0" />
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Birds_Sparse" ID="{A4828531-D04A-51D5-A140-A4C8611D522E}" WorkUnitID="{247342A6-4281-5FC1-A04D-E4830B863A3B}" />
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
